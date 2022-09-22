@@ -1,0 +1,30 @@
+.recbtndiv
+    {
+            display: flex;
+             justify-content:space-between; 
+             align-items:center;
+            
+              height:50px;
+               width:300px;
+               margin-right: auto;
+        }
+.con
+    {
+          
+              padding:10px;
+              height:auto;
+               width:300px;
+               margin-right: auto;
+        }
+
+
+        @media (max-width:500px) {
+            .recbtndiv,.con{
+                width: 100%;
+                margin-right: none;
+            }
+            
+        }
+.reaction:hover>.react{
+    display: flex;
+}

@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./login.css"
+import backgroundimg from "./img/images(6).jpg";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    
+
+
+    return (
+      <div className="loginpg">
+        <img className="img_" src={backgroundimg} alt="CREATE ACCOUNT" />
+        <div
+          style={{
+            width: "300px",
+            height: "300px",
+            margin: "20px",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+          <h1 style={{ color: "red" }}>YEMA</h1>
+          <button className="login">Login</button>
+                <button className="crtacct" style={{ marginTop: "10px" }}> create account</button>
+                <button style={{ margin:"20px",border:"none",backgroundColor:"white"}} className="forgotAccount">forgot password</button>
+        </div>
+      </div>
+    );
+    
 }
 
+//  <Router>
+//    <App />
+//  </Router>;
 export default App;

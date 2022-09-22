@@ -1,0 +1,24 @@
+.req,.sug {
+    width: calc(100% / 1.5);
+    
+    
+    background-color: rgb(241, 238, 238);
+    display: block;
+    height: fit-content;
+    min-height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+
+@media (max-width:700px) {
+    .req,.sug {
+        width: 100%;
+
+    }
+
+}

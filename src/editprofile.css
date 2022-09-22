@@ -1,0 +1,25 @@
+.edt{
+    width:calc(100% / 1.5);
+    border:none;
+    outline: none;
+    border-radius: 0px;
+    background-color: rgb(241, 238, 238);
+    display: block;
+    height: 50px
+
+
+}
+
+
+ form > div{
+    width: 100%;
+    
+} 
+
+@media (max-width:700px) {
+    .edt{
+        width:100%;
+       
+    }
+    
+}

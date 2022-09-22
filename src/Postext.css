@@ -1,0 +1,12 @@
+.pt{
+    width:calc(100% / 1.5);
+    height:200px
+}
+
+
+@media (max-width:500px) {
+    .pt{
+        width:100%
+    }
+    
+}

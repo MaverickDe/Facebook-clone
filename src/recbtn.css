@@ -1,0 +1,10 @@
+.react{
+    display: none;
+}
+
+
+.emoji:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+
+}

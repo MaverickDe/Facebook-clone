@@ -1,0 +1,13 @@
+
+.pages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(90deg,purple,white);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    
+}
